@@ -1,20 +1,26 @@
-# Spotify Charts Analysis
+# Spotify Charts Analysis Report
 
-This project contains an exploratory data analysis (EDA) of Spotify's global streaming charts using Python, Pandas, NumPy, and Seaborn.
+This project is an exploratory data analysis (EDA) of the complete **Spotify Charts dataset**. It includes detailed insights into global music trends based on track rankings, stream counts, artists, and chart types over time.
 
-## Files Included
+## Files
 
-- `spotify_analysis.ipynb`: Jupyter notebook with complete data analysis, visualizations, and insights
-- `Spotify_Charts_Report_TwoPages_Final.pdf`: PDF summary report with key findings and visualizations
+- `Report.ipynb` — Jupyter Notebook with all data cleaning, analysis, and visualizations  
+- `Report.pdf` — Summary report including:
+  - Dataset description
+  - Key findings from statistical analysis
+  - Visual insights using plots
+- `charts_sample.csv` — A sample of 100 rows from the full dataset for quick reference or testing
 
-## Features
+## What This Project Covers
 
-- Data cleaning and preprocessing using Pandas and NumPy
-- Statistical summaries and transformations
-- Pivot tables and groupby operations
-- Correlation analysis and heatmaps
-- Visualizations using Matplotlib and Seaborn
-- Insights on top songs, stream patterns, and chart performance
+- Full Dataset Loading and Inspection  
+- Data Cleaning: type conversions, null handling, column renaming  
+- Descriptive statistics using **NumPy**  
+- Grouping, merging, pivot tables with **Pandas**  
+- Visualizations using **Matplotlib** and **Seaborn**  
+- Time-series analysis, outlier detection, correlation analysis  
+- Insights on artist popularity, track performance, and trends
+
 
 ## Dataset Source
 
